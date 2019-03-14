@@ -1,0 +1,500 @@
+   81  git checkout master
+   82  git branch -d marc
+   83  ls
+   84  git branch -a
+   85  git branch
+   86  git commit
+   87  git commit
+   88  git branch -a
+   89  git branch Marc -d 
+   90  git commit  
+   91  git commit  -d remotes/origin/Marc
+   92  git push origin --delete Marc
+   93  git push origin --delete revert-d9dac633
+   94  ls
+   95  git branch -a
+   96  exit
+   97  exit
+   98  git pull
+   99  ls
+  100  cd onlyme
+  101  ls
+  102  git branch -a
+  103  git branch -d branche1 
+  104  git add . 
+  105  git push
+  106  git log
+  107  git branch -a
+  108  git branch -d remotes/origin/branche1
+  109  git branch -d origin/branche1
+  110  git branch -d branche1
+  111  git push origin --delete branche1
+  112  ipconfig
+  113  ping 192.168.1.174
+  114  cd ..
+  115  cd onlyme
+  116  git pull
+  117  ls
+  118  git checkout master
+  119  ls
+  120  git pull
+  121  ls
+  122  ls
+  123  rm pec
+  124  ls
+  125  cd PHOTOS/
+  126  rm  *
+  127  ls
+  128  git checkout lion
+  129  ls
+  130  cd ..
+  131  ls
+  132  git clone https://gitlab.com/mchollier/projet_git.git
+  133  ls
+  134  guit checkout -b br1
+  135  guit checkout -b br2
+  136  ls
+  137  git pull
+  138  cd
+  139  git clone https://gitlab.com/mchollier/Pprojet_git.git
+  140  git clone https://gitlab.com/jourdanpierre/Projet_git.git
+  141  ls
+  142  git clone https://gitlab.com/jourdanpierre/Projet_git.git
+  143  git clone https://gitlab.com/jourdanpierre/projet-git.git
+  144  ls
+  145  cd master
+  146  git checkout -b Marc
+  147  ls
+  148  cd master
+  149  ls
+  150  cd projet-git/
+  151  git checkout -b Marc
+  152  ls
+  153  touch toto.txt
+  154  echo 'Bonjour c'est Marc' >>toto.txt
+  155  echo "Bonjour c'est Marc">>toto.txt
+  156  ls
+  157  git add .
+  158  git commit -m "Commit Marc"
+  159  git push
+  160  git push --set-upstream origin Marc
+  161  git branch -a
+  162  git pull
+  163  ls
+  164  git pull
+  165  ls
+  166  git add .
+  167  git commit -am .
+  168  git push
+  169  git pull
+  170  cd ..
+  171  cd projet-git/
+  172  git pull
+  173  cd pierre
+  174  git checkout pierre
+  175  ls
+  176  ls
+  177  git push 
+  178  ls
+  179  git checkout Marc
+  180  ls
+  181  pull
+  182  git merge pierre
+  183  git push
+  184  ls
+  185  ls
+  186  git branch -a
+  187  git commit -am
+  188  git commit -am 'Commit' 
+  189  git push
+  190  ls
+  191  git pull
+  192  ls
+  193  git checkout pierre
+  194  ls
+  195  ls
+  196  git checkout Marc
+  197  commit -am "Git"
+  198  git commit -am "Git"
+  199  git checkout Marc
+  200  git push
+  201  ls
+  202  git checkout pierre
+  203  ls
+  204  git checkout Marc
+  205  git pull
+  206  git pull
+  207  ls
+  208  git checkout pierre
+  209  ls
+  210  git checkout Marc
+  211  ls
+  212  git checkout pierre
+  213  ls
+  214  git pull
+  215  ls
+  216  git checkout Marc arc
+  217  git checkout Marc
+  218  echo "Nouveau">>new.txt
+  219  git commit -am "New"
+  220  git commit -am "New" new.txt
+  221  git commit new.txt
+  222  svn status
+  223  git status
+  224  git add .
+  225  git commit new.txt
+  226  git status
+  227  git push
+  228  git checkout master
+  229  ls
+  230  history > Histoty.txt 
+  231  exit
+  232  mkdir exo1
+  233  cd exo1
+  234  git init
+  235  ls -a
+  236  ls -l
+  237  ls -la
+  238  git status
+  239  git add toto.txt
+  240  git status
+  241  git add toto.txt
+  242  git status
+  243  git add toto.txt
+  244  git status
+  245  git commit -m 'initial commit'
+  246  git status
+  247  ls -la
+  248  git log
+  249  git status
+  250  git add toto.txt tata.txt
+  251  git status
+  252  git commit
+  253  git commit 
+  254  git commit -m '2commit'
+  255  git log
+  256  echo salut >tat.txt
+  257  echo salut >tata.txt
+  258  git status
+  259  git add tata.txt
+  260  echo salut2 >tata.txt
+  261  git add tata.txt
+  262  git status
+  263  echo salut3 >tata.txt
+  264  git status
+  265  git checkout
+  266  git status
+  267  git add tata.txt
+  268  git commit
+  269  git commit "3 commit"
+  270  git commit '3 commit'
+  271  git status
+  272  git commit -m '3 commit'
+  273  rm tata.txt
+  274  git status
+  275  git add tata.txt
+  276  git status
+  277  git commit -m '4 commit'
+  278  ls -la
+  279  echo titi >titi.txt
+  280  echo titi >titi2.txt
+  281  echo titi >titi3.txt
+  282  echo titi >titi4.txt
+  283  git status
+  284  git status
+  285  git status sub1
+  286  git status 
+  287  git add .
+  288  git status 
+  289  git checkout
+  290  git status 
+  291  git checkout .
+  292  git status 
+  293  git checkout *
+  294  git status 
+  295  git reset
+  296  git status 
+  297  git add .
+  298  git commit -m '5 commit'
+  299  git log
+  300  git dif -tree --no-commit -id -r --name-only  98db2a45b67c8b23f8899fd3021680292a564a68
+  301  git diff -tree --no-commit -id -r --name-only  98db2a45b67c8b23f8899fd3021680292a564a68
+  302  git diff-tree --no-commit -id -r --name-only  98db2a45b67c8b23f8899fd3021680292a564a68
+  303  git show --name-only  98db2a45b67c8b23f8899fd3021680292a564a68
+  304  echo salut >tat.txt
+  305  git status 
+  306  git add
+  307  git add  .
+  308  git status 
+  309  git checkout
+  310  git status 
+  311  git reset
+  312  git status 
+  313  cd sub1
+  314  ls
+  315  echo modif1tete > tete.txt
+  316  cd ..
+  317  git status 
+  318  cd sub1
+  319  echo creetete2 > tete2.txt
+  320  cd ..
+  321  git status 
+  322  cd sub1 
+  323  mkdir sub12
+  324  cd sub12
+  325  echo creetutu > tutu.txt
+  326  cd ..
+  327  cd ..
+  328  ls
+  329  cd ..
+  330  ls
+  331  cd exo1
+  332  ls
+  333  git status 
+  334  cd sub1
+  335  cd sub12
+  336  ls
+  337  cp tutu.txt tetu.txt
+  338  ls
+  339  cd ..
+  340  cd ..
+  341  git status 
+  342  git branch br1
+  343  git status 
+  344  git checkout br1
+  345  git status 
+  346  ls -l
+  347  echo surbranchebr1 >
+  348  echo surbranchebr1 >  surbr1.txt
+  349  get add surbr1
+  350  get add surbr1.txt
+  351  ls
+  352  git add surbr1.txt
+  353  git commit -m 'surbr1 1'
+  354  git log
+  355  git checkout master
+  356  echo newfichquemaster fichmaster.txt
+  357  git add fichmaster.txt
+  358  echo newfichquemaster > fichmaster.txt
+  359  git add 
+  360  git commit -m 'master 1'
+  361  git log --graph --on
+  362  git log --graph --all
+  363  git checkout br1
+  364  git checkout master
+  365  gitk
+  366  git checkout br1
+  367  gitk
+  368  git checkout master
+  369  git merge br1
+  370  git merge br1 -m 'merge master-br1'
+  371  git checkout br1
+  372  echo conflict >titi3.txt
+  373  git add titi3.txt
+  374  git commit -m 'br1 2'
+  375  git checkout master
+  376  git merge br1 -m 'merge master-br1 2'
+  377  echo conflictmastermodif >titi3.txt
+  378  git add titi3.txt
+  379  git commit -m 'master 6'
+  380  git checkout br1
+  381  echo conflictbr1modif >titi3.txt
+  382  git add titi3.txt
+  383  git commit -m 'br1 3'
+  384  git checkout master
+  385  git merge br1 -m 'merge master-br1 3'
+  386  git dif merge
+  387  git diff merge
+  388  git diff 
+  389  git resolve
+  390  git res
+  391  git add titi3.txt
+  392  git commit -m 'merge1'
+  393  git diff
+  394  git diff tete
+  395  git diff tete.txt
+  396  git diff 
+  397  git diff ./sub1/tete.txt 
+  398  git status
+  399  git diff ./sub1/tete.txt 
+  400  git diff ./sub1/tete.txt 
+  401  history > Histoty2.txt 
+  402  git clone https://github.com/Armoire1?tab=repositories
+  403  git clone https://github.com/Armoire1/repo1.git
+  404  ls
+  405  cd..
+  406  cd ..
+  407  cd repo1
+  408  ls
+  409  echo a >premFich.txt
+  410  git add .
+  411  git add *
+  412  git satus
+  413  git status
+  414  git commit
+  415  git commit -m '1'
+  416  git push
+  417  cd ..
+  418  cd fne
+  419  cd ..
+  420  cd fne
+  421  cd repo1
+  422  git config 
+  423  ls
+  424  echo $USER
+  425  echo $user
+  426  echo $USERNAME
+  427  git push
+  428  cd repo1
+  429  ls
+  430  echo modif1 > premFich.txt
+  431  git add .
+  432  git commit -m '2'
+  433  git push
+  434  git config -global Armoire1 "libArmoire1"
+  435  git config --global Armoire1 "libArmoire1"
+  436  git config --global user.name "libArmoire1"
+  437  cd  ..
+  438  cd  ..
+  439  cd  fne2
+  440  ls
+  441  cd repo1
+  442  git pull
+  443  echo fichfne2 > fichfne2.txt 
+  444  git add fichfne2.txt 
+  445  git commit
+  446  git commit -m 'commit depuisfne2'
+  447  git push
+  448  cd fne
+  449  cd ..
+  450  cd ..
+  451  cd fne
+  452  git pull
+  453  cd repo1
+  454  git pull
+  455  echo fich2fne > fich2fne.txt 
+  456  git add fich2fne.txt 
+  457  git commit
+  458  git commit -m '3fne'
+  459  git push
+  460  echo history > history3.txt
+  461  exit
+  462  git config --system --unset credential.helper
+  463  cd fne
+  464  ls
+  465  cd /fne
+  466  ls
+  467  ls
+  468  cd usr
+  469  ls
+  470  cd ..
+  471  echo USERNAME
+  472  echo $USERNAME
+  473  echo $HOME
+  474  cd /c/Users/Stagiaire
+  475  ls
+  476  cd fne
+  477  ls
+  478  ls
+  479  cd fne
+  480  cd repo1
+  481  echo fne > fich3fne
+  482  git add fich3fne
+  483  git commit
+  484  git commit -m '4 fne'
+  485  git push
+  486  git config --global user.email francois
+  487  echo fich5fne > fich5fne.txt
+  488  git add fich5fne.txt
+  489  git commit
+  490  git commit - '5 fne'
+  491  git commit -m '5 fne'
+  492  git push
+  493  ls
+  494  ls -l
+  495  cd Stagiaire
+  496  cd fne
+  497  git checkout br1
+  498  cd exo1
+  499  cd ..
+  500  git checkout br1
+  501  cd ..
+  502  cd exo1
+  503  cd fne
+  504  cd exo1
+  505  ls
+  506  git checkout br1
+  507  git checkout master
+  508  echo master>master
+  509  git add master
+  510  git commit
+  511  git commit -m 'master'
+  512  git checkout br1
+  513  echo br1>br1
+  514  git add br1
+  515  git commit
+  516  git commit -m 'br1'
+  517  git checkout master
+  518  git merge br1
+  519  git checkout br1
+  520  git branch -d br12
+  521  git log
+  522  git branch -d br1
+  523  cd ..
+  524  git log
+  525  ls
+  526  cd repo1
+  527  git log
+  528  checkout branchfne2
+  529  checkout fne2branch
+  530  git checkout fne2branch
+  531  git pull
+  532  git checkout fne2branch
+  533  echo aaa>surbarnche
+  534  git add surbarnche
+  535  git commit
+  536  git commit -m branch
+  537  checkout master
+  538  git log
+  539  checkout master
+  540  checkout master
+  541  git checkout master
+  542  git log
+  543  git rebase fne2branchDate:   Wed Mar 13 14:35:51 2019 +0100
+  544  git rebase fne2branch
+  545  git log
+  546  git push
+  547  git pull
+  548  cd ..
+  549  cd fne2
+  550  cd ..
+  551  cd fne2
+  552  cd repo1
+  553  git pull
+  554  cd ..
+  555  cd ..
+  556  cd fne3
+  557  cd repo1
+  558  echo fne3>fne3
+  559  git add fne3
+  560* 
+  561  git commit -m fne3
+  562  git push
+  563  cd ..
+  564  cd ..
+  565  cd fne
+  566  cd repo1
+  567  git pull
+  568  echo history >history5.txt
+  569  echo $history >history5.txt
+  570  git pull
+  571  ls -l
+  572  vim fich2fne.txt
+  573  checkout fne2branch
+  574  git checkout fne2branch
+  575  checkout master
+  576  git checkout master
+  577  vim fich2fne.txt
+  578  git checkout maxence
+  579  git pull
+  580  history > Histoty3.txt 
